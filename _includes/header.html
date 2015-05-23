@@ -1,0 +1,86 @@
+<header id="header">
+    <div class="top-bar">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-6 col-xs-4">
+                    <div class="top-number"><p><i class="fa fa-phone-square"></i>  +0123 456 70 90</p></div>
+                </div>
+                <div class="col-sm-6 col-xs-8">
+                   <div class="social">
+                        <ul class="social-share">
+                            <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+                            <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+                            <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
+                            <li><a href="#"><i class="fa fa-dribbble"></i></a></li>
+                            <li><a href="#"><i class="fa fa-skype"></i></a></li>
+                        </ul>
+                        <!-- search not possible until we make dynamic site. Disabling for now -->
+                        <!--div class="search">
+                            <form role="form">
+                                <input type="text" class="search-form" autocomplete="off" placeholder="Search">
+                                <i class="fa fa-search"></i>
+                            </form>
+                       </div-->
+                   </div>
+                </div>
+            </div>
+        </div><!--/.container-->
+    </div><!--/.top-bar-->
+
+    <nav class="navbar navbar-inverse" role="banner">
+        <div class="container">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="{{ site.url }}"><img src="{{ site.url }}images/logo.png" alt="logo"></a>
+            </div>
+
+            <div class="collapse navbar-collapse navbar-right">
+                <ul class="nav navbar-nav">
+                    <li class="active"><a href="{{ site.url }}index.html">Home</a></li>
+                    <li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown">Magazines <i class="fa fa-angle-down"></i></a>
+                        <ul class="dropdown-menu">
+                            <li><a href="{{ site.url }}blog-item.html">May 2015</a></li>
+                            <li><a href="{{ site.url }}pricing.html">April 2015</a></li>
+                            <li><a href="{{ site.url }}404.html">March 2015</a></li>
+                            <li><a href="{{ site.url }}shortcodes.html">February 2015</a></li>
+                            <li><a href="{{ site.url }}shortcodes.html">January 2015</a></li>
+                            <li><a href="{{ site.url }}shortcodes.html">December 2014</a></li>
+                            <li><a href="{{ site.url }}shortcodes.html">November 2014</a></li>
+                            <li><a href="{{ site.url }}shortcodes.html">October 2014</a></li>
+                        </ul>
+                    </li>
+                    <li class="dropdown">
+                        <a href="about-us.html">Frameworks <i class="fa fa-angle-down"></i></a>
+                        <ul class="dropdown-menu">
+                            <li><a href="{{ site.url }}shortcodes.html">Cake PHP</a></li>
+                            <li><a href="{{ site.url }}shortcodes.html">Code Igniter</a></li>
+                            <li><a href="{{ site.url }}pricing.html">Laravel</a></li>
+                            <li><a href="{{ site.url }}shortcodes.html">Phalcon</a></li>
+                            <li><a href="{{ site.url }}blog-item.html">Symfony</a></li>
+                            <li><a href="{{ site.url }}404.html">Yii</a></li>
+                            <li><a href="{{ site.url }}shortcodes.html">Zend Framework</a></li>
+                        </ul>
+                    </li>
+                    <li class="dropdown">
+                        <a href="services.html">CMS <i class="fa fa-angle-down"></i></a>
+                        <ul class="dropdown-menu">
+                            <li><a href="{{ site.url }}shortcodes.html">Joomla</a></li>
+                            <li><a href="{{ site.url }}shortcodes.html">Drupal</a></li>
+                            <li><a href="{{ site.url }}pricing.html">Wordpress</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="{{ site.url }}blog.html">Contribute</a></li>
+                    <li><a href="{{ site.url }}portfolio.html">About</a></li>
+                    <li><a href="{{ site.url }}contact-us.html">Contact</a></li>
+                </ul>
+            </div>
+        </div><!--/.container-->
+    </nav><!--/nav-->
+
+</header>
