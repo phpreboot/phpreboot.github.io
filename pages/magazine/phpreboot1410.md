@@ -12,6 +12,7 @@ magazine:
       - Symfony
       - Cakephp
       - Yii
+      - Security
       - Tools
     showtagsright :
       - Library
