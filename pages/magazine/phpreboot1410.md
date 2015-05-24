@@ -8,7 +8,10 @@ magazine:
     monthcategory: october2014
     showtagsleft :
       - Laravel
-    showtagsright :
       - Symfony
       - Cakephp
+    showtagsright :
+      - Yii
+      - Tools
+      - Library
 ---
