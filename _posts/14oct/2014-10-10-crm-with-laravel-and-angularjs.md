@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Building a Customer Management App Using AngularJS and Laravel"
+title:  "Customer Management App Using AngularJS and Laravel"
 date:   2014-10-10 00:00:00
 categories: October2014
 tags:
