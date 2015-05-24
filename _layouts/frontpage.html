@@ -62,59 +62,26 @@ layout: default
             <div class="col-sm-6 wow fadeInDown">
                 <div class="accordion">
                     <div class="panel-group" id="accordion1">
+                      {% assign i = 11 %}
+                      {% for post in site.posts limit:3 %}
                       <div class="panel panel-default">
                         <div class="panel-heading">
                           <h3 class="panel-title">
-                            <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion1" href="#collapse11">
-                              Automated Testing of Drupal 8 Modules
+                            <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion1" href="#collapse{{ i }}">
+                              {{ post.title }}
                               <i class="fa fa-angle-right pull-right"></i>
                             </a>
                           </h3>
                         </div>
-                        <div id="collapse11" class="panel-collapse collapse">
+                        <div id="collapse{{ i }}" class="panel-collapse collapse">
                           <div class="panel-body">
-                            Taken from php developer.org. The SitePoint PHP blog has a
-                            tutorial posted talking about the
-                            automated testing of Drupal 8 modules, the components of the
-                            popular PHP-based content management system. In it author Daniel
-                            Sipos shows how to create a few tests for some functionality
-                            created in previous articles.<br/>
-                            <a href="#">Read more</a>
+                            {{ post.excerpt }}
+                            <a href="{{ post.url }}">Read more</a>
                           </div>
                         </div>
                       </div>
-
-                      <div class="panel panel-default">
-                        <div class="panel-heading">
-                          <h3 class="panel-title">
-                            <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion1" href="#collapse12">
-                              Lorem ipsum dolor sit amet
-                              <i class="fa fa-angle-right pull-right"></i>
-                            </a>
-                          </h3>
-                        </div>
-                        <div id="collapse12" class="panel-collapse collapse">
-                          <div class="panel-body">
-                            Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor.
-                          </div>
-                        </div>
-                      </div>
-
-                      <div class="panel panel-default">
-                        <div class="panel-heading">
-                          <h3 class="panel-title">
-                            <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion1" href="#collapse13">
-                              Lorem ipsum dolor sit amet
-                              <i class="fa fa-angle-right pull-right"></i>
-                            </a>
-                          </h3>
-                        </div>
-                        <div id="collapse13" class="panel-collapse collapse">
-                          <div class="panel-body">
-                            Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor.
-                          </div>
-                        </div>
-                      </div>
+                      {% capture i %}{{ i | plus:1 }}{% endcapture %}
+                      {% endfor %}
                     </div><!--/#accordion1-->
                 </div>
             </div>
@@ -122,58 +89,26 @@ layout: default
             <div class="col-sm-6 wow fadeInDown">
                 <div class="accordion">
                     <div class="panel-group" id="accordion2">
+                      {% assign i = 21 %}
+                      {% for post in site.posts limit:3 offset:3 %}
                       <div class="panel panel-default">
                         <div class="panel-heading">
                           <h3 class="panel-title">
-                            <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion2" href="#collapse21">
-                              Automated Testing of Drupal 8 Modules
+                            <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion2" href="#collapse{{ i }}">
+                              {{ post.title }}
                               <i class="fa fa-angle-right pull-right"></i>
                             </a>
                           </h3>
                         </div>
-                        <div id="collapse21" class="panel-collapse collapse">
+                        <div id="collapse{{ i }}" class="panel-collapse collapse">
                           <div class="panel-body">
-                            The SitePoint PHP blog has a tutorial posted talking about the
-                            automated testing of Drupal 8 modules, the components of the
-                            popular PHP-based content management system. In it author Daniel
-                            Sipos shows how to create a few tests for some functionality
-                            created in previous articles.<br/>
-                            <a href="#">Read more</a>
+                            {{ post.excerpt }}
+                            <a href="{{ post.url }}">Read more</a>
                           </div>
                         </div>
                       </div>
-
-                      <div class="panel panel-default">
-                        <div class="panel-heading">
-                          <h3 class="panel-title">
-                            <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion2" href="#collapse22">
-                              Lorem ipsum dolor sit amet
-                              <i class="fa fa-angle-right pull-right"></i>
-                            </a>
-                          </h3>
-                        </div>
-                        <div id="collapse22" class="panel-collapse collapse">
-                          <div class="panel-body">
-                            Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor.
-                          </div>
-                        </div>
-                      </div>
-
-                      <div class="panel panel-default">
-                        <div class="panel-heading">
-                          <h3 class="panel-title">
-                            <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion2" href="#collapse23">
-                              Lorem ipsum dolor sit amet
-                              <i class="fa fa-angle-right pull-right"></i>
-                            </a>
-                          </h3>
-                        </div>
-                        <div id="collapse23" class="panel-collapse collapse">
-                          <div class="panel-body">
-                            Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor.
-                          </div>
-                        </div>
-                      </div>
+                      {% capture i %}{{ i | plus:1 }}{% endcapture %}
+                      {% endfor %}
                     </div><!--/#accordion1-->
                 </div>
             </div>
