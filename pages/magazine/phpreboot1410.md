@@ -16,6 +16,8 @@ magazine:
     showtagsright :
       - Library
       - Concept
+      - Design-pattern
       - Devenv
       - Hosting
+      - Statistics
 ---
