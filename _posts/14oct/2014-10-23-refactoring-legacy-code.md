@@ -13,7 +13,7 @@ author:
     googleplus-link: https://plus.google.com/u/0/+PatkosCsaba/posts
     url: http://code.tutsplus.com/series/refactoring-legacy-code--cms-633
 ---
-On tutsplua, Patkos Csaba posted a excellent learning guide on refactoring old code.
+On tutsplus, Patkos Csaba posted a excellent learning guide on refactoring old code.
 
 > Old code. Ugly code. Complicated code. Spaghetti code. Jibberish nonsense. In two words, Legacy Code. This is a series that will help you work and deal with it.
 > <br/><br/>
