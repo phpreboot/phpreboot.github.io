@@ -7,13 +7,15 @@ magazine:
     month: October 2014
     monthcategory: october2014
     showtagsleft :
+      - Editorial
       - Laravel
       - Symfony
       - Cakephp
       - Yii
-    showtagsright :
       - Tools
+    showtagsright :
       - Library
       - Concept
       - Devenv
+      - Hosting
 ---
