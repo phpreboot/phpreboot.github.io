@@ -63,7 +63,7 @@ layout: default
                 <div class="accordion">
                     <div class="panel-group" id="accordion1">
                       {% assign i = 11 %}
-                      {% for post in site.posts limit:3 %}
+                      {% for post in site.posts limit:5 %}
                       <div class="panel panel-default">
                         <div class="panel-heading">
                           <h3 class="panel-title">
@@ -90,7 +90,7 @@ layout: default
                 <div class="accordion">
                     <div class="panel-group" id="accordion2">
                       {% assign i = 21 %}
-                      {% for post in site.posts limit:3 offset:3 %}
+                      {% for post in site.posts limit:5 offset:5 %}
                       <div class="panel panel-default">
                         <div class="panel-heading">
                           <h3 class="panel-title">
