@@ -10,8 +10,10 @@ magazine:
       - Laravel
       - Symfony
       - Cakephp
-    showtagsright :
       - Yii
+    showtagsright :
       - Tools
       - Library
+      - Concept
+      - Devenv
 ---

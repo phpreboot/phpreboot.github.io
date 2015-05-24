@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Programming with Yii2"
+title:  "7 Reasons to Choose the Yii 2 Framework"
 date:   2014-10-13 00:00:00
 categories: October2014
 tags:
