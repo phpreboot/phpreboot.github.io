@@ -3,7 +3,7 @@ title: PHP Reboot
 email: info@phpreboot.com
 description: PHP Reboot is an attempt to share news and new features of PHP and related technologies. We do this by sharing articles, news and tutorials through free PHP Reboot Magazine and blogs.
 baseurl: "" # the subpath of your site, e.g. /blog/
-url: "http://phpreboot.github.io" # the base hostname & protocol for your site
+url: "http://phpreboot.github.io/" # the base hostname & protocol for your site
 twitter_username: phpreboot
 
 permalink: /magazine/:categories/:title/
