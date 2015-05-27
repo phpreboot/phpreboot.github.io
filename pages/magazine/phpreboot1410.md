@@ -21,4 +21,5 @@ magazine:
       - Devenv
       - Hosting
       - Statistics
+      - Project-management
 ---
