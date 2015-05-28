@@ -13,6 +13,7 @@ magazine:
       - Cakephp
       - Yii
       - Security
+      - Php-basics
       - Tools
     showtagsright :
       - Library
