@@ -5,7 +5,7 @@ date:   2014-10-06 00:00:00
 categories: October2014
 tags:
   - Concept
-  - Wordwar
+  - Counter-view
 author:
     name: Paul M Jones
     twitter: pmjones

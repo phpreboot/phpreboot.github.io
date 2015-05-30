@@ -15,6 +15,7 @@ magazine:
       - Security
       - Php-basics
       - Tools
+      - Counter-view
     showtagsright :
       - Library
       - Concept
