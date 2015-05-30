@@ -1,7 +1,7 @@
 ---
 layout: magazine
 title: PHP Reboot, December 2014 magazine
-permalink: /magazine/december2014/
+permalink: /m1412/
 categories: December2014
 magazine:
     month: December 2014
