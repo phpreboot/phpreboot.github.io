@@ -9,4 +9,5 @@ magazine:
     showtagsleft :
       - Tips
     showtagsright :
+      - Devenv
 ---
