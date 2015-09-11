@@ -11,4 +11,5 @@ magazine:
       - SlimFramework
     showtagsright :
       - Library
+      - Views
 ---
