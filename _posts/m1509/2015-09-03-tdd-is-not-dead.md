@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "TDD is not Dead"
-date:   2015-09-01 00:00:00
+date:   2015-09-03 00:00:00
 categories: September2015
 tags:
   - PHPUnit
