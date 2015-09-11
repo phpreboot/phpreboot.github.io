@@ -8,6 +8,7 @@ magazine:
     monthcategory: september2015
     showtagsleft :
       - Laravel
+      - SlimFramework
     showtagsright :
       - Library
 ---
