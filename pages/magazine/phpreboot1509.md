@@ -9,4 +9,5 @@ magazine:
     showtagsleft :
       - Laravel
     showtagsright :
+      - Library
 ---

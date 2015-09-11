@@ -12,7 +12,7 @@ author:
     github: huseyinbabal
     url: http://code.tutsplus.com/tutorials/build-a-real-time-chat-application-with-modulus-and-laravel-5--cms-24284
 ---
-On tutsplus, Hüseyin Babal posted a tutorial for creating chat application using Laravel 5, modulus, Pusher and Postgres.
+On tutsplus, Hüseyin Babal posted a nice tutorial for creating chat application using Laravel 5, modulus, Pusher and Postgres.
 
 > In this tutorial, I will show you how to implement a real-time chat application with Laravel 5, PostgreSQL, and Pusher. Then we will deploy this application to Modulus together.
 >
