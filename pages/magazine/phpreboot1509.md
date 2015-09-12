@@ -10,6 +10,7 @@ magazine:
       - Laravel
       - SlimFramework
       - Symfony
+      - Tools
     showtagsright :
       - Library
       - Concept
