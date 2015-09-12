@@ -2528,3 +2528,7 @@ shortcodes page css
   display: inline-block;
   margin-left: 15px;
 }
+
+.color-white {
+  color: #FFF;
+}

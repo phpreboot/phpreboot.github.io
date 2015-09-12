@@ -17,7 +17,7 @@ layout: default
               {% assign accordianNumber = 11 %}
               {% for showtag in page.magazine.showtagsleft %}
                 <div class="accordion">
-                    <h2>{{ showtag }}</h2>
+                      <h2>{{ showtag }}</h2>
                       <div class="panel-group" id="accordion{{ accordianNumber }}">
                       {% assign postNumber = 11 %}
                       {% for article in articles %}

@@ -1,0 +1,46 @@
+---
+layout: default
+---
+<section id="middle">
+    <div class="container">
+      <div class="center wow fadeInDown">
+          <h2 class="white">PHP Reboot article categories</h2>
+          <p class="lead">
+              PHP reboot magazine is an attempt to collect good and informative blogs, articles and tutorials.
+              We keep articles in different categories, so that searching current and previous articles in a
+              categore becomes easy. Currently we have articles listed in following categories. <br/><br/>
+              Click on any perticular category below to view articles in that category.
+          </p>
+      </div>
+      <div class="row">
+          <div class="col-sm-3 col-xs-6 wow fadeInDown">
+              {% for tag in site.data.tags %}
+                  {% if tag.column == 1 %}
+                      <h2 class="color-white">{{ tag.name }}</h2>
+                  {% endif %}
+              {% endfor %}
+          </div>
+          <div class="col-sm-3 col-xs-6 wow fadeInDown">
+            {% for tag in site.data.tags %}
+                {% if tag.column == 2 %}
+                      <h2 class="color-white">{{ tag.name }}</h2>
+                {% endif %}
+            {% endfor %}
+          </div>
+          <div class="col-sm-3 col-xs-6 wow fadeInDown">
+              {% for tag in site.data.tags %}
+                  {% if tag.column == 3 %}
+                      <h2 class="color-white">{{ tag.name }}</h2>
+                  {% endif %}
+              {% endfor %}
+          </div>
+          <div class="col-sm-3 col-xs-6 wow fadeInDown">
+            {% for tag in site.data.tags %}
+                {% if tag.column == 4 %}
+                      <h2 class="color-white">{{ tag.name }}</h2>
+                {% endif %}
+            {% endfor %}
+          </div>
+      </div>
+    </div>
+</section>
