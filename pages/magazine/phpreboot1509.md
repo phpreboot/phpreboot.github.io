@@ -9,6 +9,7 @@ magazine:
     showtagsleft :
       - Laravel
       - SlimFramework
+      - Symfony
     showtagsright :
       - Library
       - Concept
