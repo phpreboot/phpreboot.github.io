@@ -1,7 +1,7 @@
 ---
 layout: post
-title:  "An Introduction into Event Loops in PHP"
-date:   2015-09-09 00:00:00
+title: "An Introduction into Event Loops in PHP"
+date: 2015-09-09 00:00:00
 categories: September2015
 tags:
   - Library
@@ -9,7 +9,7 @@ author:
     name: Christopher Pitt
     twitter: assertchris
     github: assertchris
-    url: http://www.sitepoint.com/author/assertchris/
+    url: http://www.sitepoint.com/an-introduction-into-event-loops-in-php/
 ---
 On sitepoint, Christopher Pitt introduced about event-loop in php, to achieve asynchronous programming in PHP using Icircle and ReactPHP.
 
