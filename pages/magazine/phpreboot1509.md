@@ -10,9 +10,10 @@ magazine:
       - Laravel
       - SlimFramework
       - Symfony
-      - Tools
+      - ZendExpressive
     showtagsright :
       - Library
       - Concept
       - Views
+      - Tools
 ---
