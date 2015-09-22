@@ -13,6 +13,7 @@ magazine:
       - Symfony
       - ZendExpressive
     showtagsright :
+      - News
       - Php7
       - Library
       - Concept
