@@ -9,6 +9,7 @@ magazine:
     showtagsleft :
       - Drupal
       - Laravel
+      - Magento
       - SlimFramework
       - Symfony
       - ZendExpressive
