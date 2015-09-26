@@ -12,6 +12,7 @@ magazine:
       - SlimFramework
       - Symfony
       - ZendExpressive
+      - Security
     showtagsright :
       - News
       - Php7
