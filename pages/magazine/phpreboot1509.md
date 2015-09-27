@@ -17,6 +17,7 @@ magazine:
     showtagsright :
       - News
       - Php7
+      - Guide
       - Library
       - Concept
       - Views
