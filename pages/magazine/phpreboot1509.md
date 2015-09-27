@@ -14,9 +14,9 @@ magazine:
       - Symfony
       - ZendExpressive
       - Security
+      - Php7
     showtagsright :
       - News
-      - Php7
       - Guide
       - Library
       - Concept
