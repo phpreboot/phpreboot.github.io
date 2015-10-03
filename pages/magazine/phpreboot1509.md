@@ -7,12 +7,19 @@ magazine:
     month: September 2015
     monthcategory: september2015
     showtagsleft :
+      - Drupal
       - Laravel
+      - Magento
       - SlimFramework
       - Symfony
-      - Tools
+      - ZendExpressive
+      - Security
+      - Php7
     showtagsright :
+      - News
+      - Guide
       - Library
       - Concept
       - Views
+      - Tools
 ---

@@ -59,7 +59,7 @@ $authorGithub = readline('  Enter author\'s github account (Optional): ');
 $authorUrl = readline('  Enter original url of article: ');
 
 $author = "author:" . PHP_EOL . "    name: " . $authorName . PHP_EOL;
-if (strlen($authorGithub) > 0) {
+if (strlen($authorTwitter) > 0) {
     $author .= "    twitter: " . $authorTwitter . PHP_EOL;
 }
 if (strlen($authorGithub) > 0) {
