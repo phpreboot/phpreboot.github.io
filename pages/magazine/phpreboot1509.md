@@ -7,6 +7,7 @@ magazine:
     month: September 2015
     monthcategory: september2015
     showtagsleft :
+      - Editorial
       - Drupal
       - Laravel
       - Magento
