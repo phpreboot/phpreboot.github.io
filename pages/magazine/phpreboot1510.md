@@ -8,6 +8,8 @@ magazine:
     monthcategory: october2015
     showtagsleft :
       - Editorial
+      - Laravel
+      - Magento
     showtagsright :
       - News
 ---
