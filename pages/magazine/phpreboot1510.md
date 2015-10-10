@@ -14,4 +14,5 @@ magazine:
     showtagsright :
       - News
       - Concept
+      - Tools
 ---
