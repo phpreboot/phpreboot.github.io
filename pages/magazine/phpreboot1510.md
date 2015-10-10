@@ -15,4 +15,5 @@ magazine:
       - News
       - Concept
       - Tools
+      - Guide
 ---
