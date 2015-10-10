@@ -13,4 +13,5 @@ magazine:
       - Magento
     showtagsright :
       - News
+      - Concept
 ---
