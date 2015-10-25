@@ -11,6 +11,7 @@ magazine:
       - Drupal
       - Laravel
       - Magento
+      - Symfony
     showtagsright :
       - News
       - Concept
