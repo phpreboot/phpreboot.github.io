@@ -12,6 +12,7 @@ magazine:
       - Laravel
       - Magento
       - Symfony
+      - Wordpress
     showtagsright :
       - News
       - Concept
