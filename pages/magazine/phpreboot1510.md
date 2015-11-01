@@ -18,6 +18,7 @@ magazine:
       - Wordpress
       - News
       - Concept
+      - Library
       - Php-basics
       - Tools
       - Guide
