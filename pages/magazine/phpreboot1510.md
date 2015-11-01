@@ -8,12 +8,13 @@ magazine:
     monthcategory: october2015
     showtagsleft :
       - Editorial
-      - Drupal
       - Laravel
       - Magento
+      - Silex
       - Symfony
-      - Wordpress
     showtagsright :
+      - Drupal
+      - Wordpress
       - News
       - Concept
       - Tools
