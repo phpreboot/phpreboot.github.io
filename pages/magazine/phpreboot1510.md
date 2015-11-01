@@ -12,6 +12,7 @@ magazine:
       - Laravel
       - Magento
       - Silex
+      - SlimFramework
       - Symfony
     showtagsright :
       - Wordpress
