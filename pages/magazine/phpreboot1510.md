@@ -14,8 +14,8 @@ magazine:
       - Silex
       - SlimFramework
       - Symfony
-    showtagsright :
       - Wordpress
+    showtagsright :
       - News
       - Concept
       - Library
