@@ -4,7 +4,8 @@ title: "What Are Laravel Packages?"
 date: 2015-12-11 12:00:00
 categories: December2015
 tags:
-  - Laravel,Laravel5
+  - Laravel
+  - Laravel5
 author:
     name: Alireza Rahmani Khalili
     github: alirezarahmani

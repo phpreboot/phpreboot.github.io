@@ -7,19 +7,9 @@ magazine:
     month: December 2015
     monthcategory: december2015
     showtagsleft :
-      - Editorial
-      - Drupal
       - Laravel
-      - Magento
-      - Silex
-      - SlimFramework
       - Symfony
-      - Wordpress
     showtagsright :
       - News
-      - Concept
-      - Library
-      - Php-basics
       - Tools
-      - Guide
 ---
