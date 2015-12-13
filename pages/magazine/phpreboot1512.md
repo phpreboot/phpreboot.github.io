@@ -12,6 +12,7 @@ magazine:
     showtagsright :
       - News
       - Tools
+      - Concept
       - Php-basics
       - Statistics
 ---
