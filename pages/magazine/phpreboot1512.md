@@ -7,6 +7,7 @@ magazine:
     month: December 2015
     monthcategory: december2015
     showtagsleft :
+      - Drupal
       - Laravel
       - SlimFramework
       - Symfony
