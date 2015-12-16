@@ -10,6 +10,7 @@ magazine:
       - Laravel
       - SlimFramework
       - Symfony
+      - Views
     showtagsright :
       - News
       - Tools
