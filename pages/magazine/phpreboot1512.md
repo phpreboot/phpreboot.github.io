@@ -12,11 +12,12 @@ magazine:
       - SlimFramework
       - Symfony
       - Views
+      - Statistics
     showtagsright :
       - News
       - Tools
       - Library
       - Concept
+      - Guide
       - Php-basics
-      - Statistics
 ---
