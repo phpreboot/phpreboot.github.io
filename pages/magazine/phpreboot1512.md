@@ -13,11 +13,12 @@ magazine:
       - Symfony
       - Views
       - Statistics
+      - Php-basics
     showtagsright :
       - News
       - Tools
       - Library
       - Concept
       - Guide
-      - Php-basics
+      - Devenv
 ---
