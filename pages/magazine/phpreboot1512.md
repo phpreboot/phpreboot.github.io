@@ -13,7 +13,6 @@ magazine:
       - Symfony
       - Views
       - Statistics
-      - Php-basics
     showtagsright :
       - News
       - Tools
@@ -21,4 +20,5 @@ magazine:
       - Concept
       - Guide
       - Devenv
+      - Php-basics
 ---
