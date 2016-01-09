@@ -11,6 +11,7 @@ magazine:
       - Laravel
       - SlimFramework
       - Symfony
+      - ZendFramework
       - Views
       - Statistics
     showtagsright :
