@@ -7,6 +7,7 @@ magazine:
     month: January 2016
     monthcategory: january2016
     showtagsleft :
+      - Laravel
       - Php-basics
     showtagsright :
       - News
