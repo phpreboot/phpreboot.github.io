@@ -7,7 +7,7 @@ magazine:
     month: January 2016
     monthcategory: january2016
     showtagsleft :
-      - Drupal
+      - Php-basics
     showtagsright :
       - News
 ---
