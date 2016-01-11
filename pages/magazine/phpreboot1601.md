@@ -8,7 +8,9 @@ magazine:
     monthcategory: january2016
     showtagsleft :
       - Laravel
+      - Wordpress
       - Php-basics
     showtagsright :
       - News
+      - PHP7
 ---
