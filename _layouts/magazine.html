@@ -13,77 +13,80 @@ layout: default
         </div>
         <div class="row">
             <div class="col-sm-6 wow fadeInDown">
-              {% assign leftNumber = 1 %}
-              {% assign accordianNumber = 11 %}
-              {% for showtag in page.magazine.showtagsleft %}
-                <div class="accordion">
-                    <h2>{{ showtag }}</h2>
-                      <div class="panel-group" id="accordion{{ accordianNumber }}">
-                      {% assign postNumber = 11 %}
-                      {% for article in articles %}
-                      {% for ktag in article.tags %}
-                      {% if ktag == showtag %}
-                      <div class="panel panel-default">
-                        <div class="panel-heading">
-                          <h3 class="panel-title">
-                            <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion{{ accordianNumber }}" href="#collapse{{leftNumber}}{{accordianNumber}}{{postNumber}}">
-                              {{ article.title }}
-                              <i class="fa fa-angle-right pull-right"></i>
-                            </a>
-                          </h3>
-                        </div>
-                        <div id="collapse{{leftNumber}}{{accordianNumber}}{{postNumber}}" class="panel-collapse collapse">
-                          <div class="panel-body">
-                            {{ article.excerpt }}
-                            <a href="{{ article.url }}">Read more</a>
-                          </div>
-                        </div>
-                      </div>
-                      {% capture postNumber %}{{ postNumber | plus:1 }}{% endcapture %}
-                      {% endif %}
-                      {% endfor %}
-                      {% endfor %}
-                    </div><!--/#accordion1-->
-                </div>
-                {% capture accordianNumber %}{{ accordianNumber | plus:1 }}{% endcapture %}
-              {% endfor %}
+                {% assign leftNumber = 1 %}
+                {% assign accordianNumber = 11 %}
+                {% for showtag in page.magazine.showtagsleft %}
+                    <div class="accordion">
+                        <h2>{{ showtag }}</h2>
+                        <div class="panel-group" id="accordion{{ accordianNumber }}">
+                            {% assign postNumber = 11 %}
+                            {% for article in articles %}
+                                {% for ktag in article.tags %}
+                                    {% if ktag == showtag %}
+                                        <div class="panel panel-default">
+                                            <div class="panel-heading">
+                                                <h3 class="panel-title">
+                                                    <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion{{ accordianNumber }}" href="#collapse{{leftNumber}}{{accordianNumber}}{{postNumber}}">
+                                                        {{ article.title }}
+                                                        <i class="fa fa-angle-right pull-right"></i>
+                                                    </a>
+                                                </h3>
+                                            </div>
+                                            <div id="collapse{{leftNumber}}{{accordianNumber}}{{postNumber}}" class="panel-collapse collapse">
+                                                <div class="panel-body">
+                                                    {{ article.excerpt }}
+                                                    <a href="{{ article.url }}">Read more</a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        {% capture postNumber %}{{ postNumber | plus:1 }}{% endcapture %}
+                                    {% endif %}
+                                {% endfor %}
+                            {% endfor %}
+                        </div><!--/#accordion1-->
+                    </div>
+                    {% capture accordianNumber %}{{ accordianNumber | plus:1 }}{% endcapture %}
+                {% endfor %}
             </div>
             <div class="col-sm-6 wow fadeInDown">
-              {% assign leftNumber = 2 %}
-              {% assign accordianNumber = 21 %}
-              {% for showtag in page.magazine.showtagsright %}
+                {% assign leftNumber = 2 %}
+                {% assign accordianNumber = 21 %}
+                {% for showtag in page.magazine.showtagsright %}
                 <div class="accordion">
                     <h2>{{ showtag }}</h2>
-                      <div class="panel-group" id="accordion{{ accordianNumber }}">
-                      {% assign postNumber = 11 %}
-                      {% for article in articles %}
-                      {% for ktag in article.tags %}
-                      {% if ktag == showtag %}
-                      <div class="panel panel-default">
-                        <div class="panel-heading">
-                          <h3 class="panel-title">
-                            <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion{{ accordianNumber }}" href="#collapse{{leftNumber}}{{accordianNumber}}{{postNumber}}">
-                              {{ article.title }}
-                              <i class="fa fa-angle-right pull-right"></i>
-                            </a>
-                          </h3>
-                        </div>
-                        <div id="collapse{{leftNumber}}{{accordianNumber}}{{postNumber}}" class="panel-collapse collapse">
-                          <div class="panel-body">
-                            {{ article.excerpt }}
-                            <a href="{{ article.url }}">Read more</a>
-                          </div>
-                        </div>
-                      </div>
-                      {% capture postNumber %}{{ postNumber | plus:1 }}{% endcapture %}
-                      {% endif %}
-                      {% endfor %}
-                      {% endfor %}
+                    <div class="panel-group" id="accordion{{ accordianNumber }}">
+                    {% assign postNumber = 11 %}
+                    {% for article in articles %}
+                        {% for ktag in article.tags %}
+                            {% if ktag == showtag %}
+                                <div class="panel panel-default">
+                                    <div class="panel-heading">
+                                        <h3 class="panel-title">
+                                            <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion{{ accordianNumber }}" href="#collapse{{leftNumber}}{{accordianNumber}}{{postNumber}}">
+                                                {{ article.title }}
+                                                <i class="fa fa-angle-right pull-right"></i>
+                                            </a>
+                                        </h3>
+                                    </div>
+                                    <div id="collapse{{leftNumber}}{{accordianNumber}}{{postNumber}}" class="panel-collapse collapse">
+                                        <div class="panel-body">
+                                            {{ article.excerpt }}
+                                            <a href="{{ article.url }}">Read more</a>
+                                        </div>
+                                    </div>
+                                </div>
+                                {% capture postNumber %}{{ postNumber | plus:1 }}{% endcapture %}
+                            {% endif %}
+                        {% endfor %}
+                    {% endfor %}
                     </div><!--/#accordion1-->
                 </div>
                 {% capture accordianNumber %}{{ accordianNumber | plus:1 }}{% endcapture %}
-              {% endfor %}
+                {% endfor %}
             </div>
+        </div>
+        <div class="row">
+
         </div>
     </div>
 </section>
