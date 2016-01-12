@@ -11,7 +11,7 @@ layout: default
                 PHP reboot magazine is an attempt to collect good and informative blogs, articles and tutorials. Following articles were newly published on respective sites during {{ page.magazine.month}}.
             </p>
         </div>
-        <div class="row">
+        <div class="row" id="by-category">
             <div class="col-sm-6 wow fadeInDown">
                 {% assign leftNumber = 1 %}
                 {% assign accordianNumber = 11 %}
@@ -85,8 +85,15 @@ layout: default
                 {% endfor %}
             </div>
         </div>
-        <div class="row">
-
+        <div class="row" id="by-date">
+            {% assign totalArticles = 0 %}
+            {% for article in articles %}
+                {{article.date}}
+                {% capture totalArticles %}{{ totalArticles | plus:1 }}{% endcapture %}
+                {% capture date %} {{ article.date | date: "%d" }} {% endcapture %}
+                -> {{ date }} <- <br/>
+            {% endfor %}
+            Total articles = {{ totalArticles }}
         </div>
     </div>
 </section>
