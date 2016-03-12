@@ -1,6 +1,6 @@
 ---
 layout: magazine
-title: PHP Reboot, January 2016 magazine
+title: PHP Reboot, March 2016 magazine
 permalink: /m1603/
 categories: March2016
 magazine:
